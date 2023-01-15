@@ -1,0 +1,29 @@
+.main{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(11, 1, 1);
+    background-color: black;
+    color: white;
+    text-align: center;
+  
+  }
+  .main button{
+    margin: 16px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+  
+  }
+  
+  .main textarea{
+    width: 60vw;
+    height: 100px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
