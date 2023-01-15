@@ -25,35 +25,35 @@ function RegistartionForm() {
   return (
     <div className="main">
 
-    <h1>Registration Form</h1>
+             <h1>Registration Form</h1>
            <form onSubmit={handleSubmit}>
                <div>
-                   <input placeholder="First Name" onChange={e=>setFirstName(e.target.value)} />
+                First name  :<input placeholder="Ashish....." onChange={e=>setFirstName(e.target.value)} />
                </div>
                {error&&firstName.length<=0?
-               <label>First Name can't be Empty</label>:""}
+                <label>First Name can't be Empty</label>:""}
                <div>
-                   <input placeholder="Last Name" onChange={e=>setLastName(e.target.value)} />
+                Last Name   :<input placeholder="Ingle..." onChange={e=>setLastName(e.target.value)} />
                </div>
                {error&&lastName.length<=0?
                <label>Last Name can't be Empty</label>:""}
                <div>
-                   <input placeholder="Gender" onChange={e=>setGender(e.target.value)} />
+                Gender :<input placeholder="Male..." onChange={e=>setGender(e.target.value)} />
                </div>
                {error&&gender.length<=0?
                <label>Gender can't be Empty</label>:""}
                <div>
-                   <input placeholder="Country" onChange={e=>setCountry(e.target.value)} />
+                Country     :  <input placeholder="India...." onChange={e=>setCountry(e.target.value)} />
                </div>
                {error&&country.length<=0?
                <label>Country can't be Empty</label>:""}
                <div>
-                   <input placeholder="Marketing Emails" onChange={e=>setmarketing_emails(e.target.value)} />
+                Email : <input placeholder="ashishing...@gmail...com" onChange={e=>setmarketing_emails(e.target.value)} />
                </div>
                {error&&marketing_emails.length<=0?
-               <label>Marketing Emails can't be Empty</label>:""}
+               <label>Emails can't be Empty</label>:""}
                <div>
-                   <input placeholder="Profile Picture" onChange={e=>setprofile_picture(e.target.value)} />
+                Profile Image : <input placeholder="Profile Picture..." onChange={e=>setprofile_picture(e.target.value)} />
                </div>
                {error&&profile_picture.length<=0?
                <label>Profile Picture can't be Empty</label>:""}
